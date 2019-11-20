@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android-app-bundle-sample</string>
+    <string name="title_dynamic_feature_djisdk">dji_sdk_hooyee</string>
+    <string name="title_dynamic_dji_sdk">dynamic_dji_sdk</string>
+</resources>
