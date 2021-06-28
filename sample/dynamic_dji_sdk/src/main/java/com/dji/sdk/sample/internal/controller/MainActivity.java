@@ -305,6 +305,11 @@ public class MainActivity extends AppCompatActivity {
                             lastProcess = process;
                             showProgress(process);
                         }
+
+                        @Override
+                        public void onProductChanged(BaseProduct baseProduct) {
+
+                        }
                     });
                 }
             });

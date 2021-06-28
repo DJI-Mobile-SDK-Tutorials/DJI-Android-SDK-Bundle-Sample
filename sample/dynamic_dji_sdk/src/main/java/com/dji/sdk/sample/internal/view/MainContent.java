@@ -19,8 +19,6 @@ import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-
 import com.dji.sdk.sample.R;
 import com.dji.sdk.sample.internal.controller.DJISampleApplication;
 import com.dji.sdk.sample.internal.controller.MainActivity;
@@ -47,10 +45,6 @@ import dji.sdk.realname.AppActivationManager;
 import dji.sdk.sdkmanager.BluetoothProductConnector;
 import dji.sdk.sdkmanager.DJISDKManager;
 import dji.sdk.useraccount.UserAccountManager;
-import dji.upgrade.component.firmware.UpgradeFirmwareListener;
-import dji.upgrade.component.firmware.model.FirmwareInformation;
-import dji.upgrade.component.firmware.model.FirmwareUpgradeProgress;
-import dji.upgrade.component.firmware.model.UpgradeFirmwareState;
 
 /**
  * Created by dji on 15/12/18.

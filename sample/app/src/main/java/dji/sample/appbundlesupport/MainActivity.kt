@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
                 mSessionId = sessionId
             }
             .addOnFailureListener { exception ->
-                Toast.makeText(applicationContext, "load fail", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "load fail: "+exception.message, Toast.LENGTH_SHORT).show()
             }.addOnCompleteListener {
             }
     }
