@@ -8,7 +8,7 @@ In this sample, you will learn how to use the DJI Android SDK with app bundle.
 
  - Android Studio 3.2+
  - Android System 4.1+
- - DJI Android SDK 4.11.1
+ - DJI Android SDK 4.15
 
 ## Feedback
 
